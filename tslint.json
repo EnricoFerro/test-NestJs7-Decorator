@@ -1,0 +1,25 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "quotemark": [
+            true,
+            "single"
+        ],
+        "object-literal-sort-keys": false,
+        "member-access": false,
+        "trailing-comma": false,
+        "ordered-imports": false,
+        "ban-types": false,
+        "member-ordering": [
+            true,
+            {
+                "order": [
+                    "static-field",
+                    "instance-field",
+                    "static-method",
+                    "instance-method"
+                ]
+            }
+        ]
+    }
+}
